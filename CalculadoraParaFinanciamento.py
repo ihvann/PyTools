@@ -1,5 +1,3 @@
-from os import system
-
 end='s'
 while end=='s':	
 	saldo=float(input('DIGA O VALOR TOTAL DO FINANCIAMENTO: '))
@@ -51,4 +49,3 @@ while end=='s':
 	print('\nTOTAL PAGO:',round(total,2))
 	print('TOTAL DE JUROS:',round(jTotal,2))
 	end=input('\nCONTINUAR? [s/n] ')
-	system('clear') or None
